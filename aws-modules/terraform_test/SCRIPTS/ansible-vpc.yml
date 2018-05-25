@@ -1,8 +1,7 @@
 - hosts: 127.0.0.1
-  remote_user: freelancer
   become_method: sudo
   connection: local
   gather_facts: yes
-  roles:
-    - vpc
-
+  tasks:
+    - name: run terraform
+      command: sh start.sh
