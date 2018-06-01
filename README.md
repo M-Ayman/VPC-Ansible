@@ -1,3 +1,6 @@
+![alt text](img/Ansible-CloudFormation.png "Add Architecture")
+
+
 VPC-Ansible
 
 Prerequisites
